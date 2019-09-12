@@ -1,0 +1,62 @@
+body {
+    --kingblue: rgb(101, 81, 172);
+    --kingdarkblue: rgb(53, 11, 243); 
+    --kingred: rgb(243, 11, 11);    
+}
+
+h1, h2, h3, h4, h5 {
+    color: var(--kingblue)
+}
+
+.text-center{
+    text-align:center;
+}
+
+.logo {
+    max-width: 30vw
+}
+
+nav{
+    background-color: var(--kingblue)
+}
+
+nav p {
+    display: inline
+}
+nav img {
+    margin-right: 30vw;
+}
+
+header {
+    border: 2px double;
+    margin: 10vh 5vh
+}
+
+header  h1{
+    margin-bottom: 5px
+}
+header  h5{
+    margin-top: 5px
+}
+
+article img {
+    width: 100%
+}
+
+
+img {
+    border: 1px solid var(--kingblue);
+    border-radius: 50%;
+}
+/* 
+ul {
+    list-style: none; 
+  }
+
+ul li::before{
+    content: "\2022"; 
+    color: var(--kingred);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+} */
